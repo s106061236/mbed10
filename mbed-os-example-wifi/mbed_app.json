@@ -1,0 +1,17 @@
+{
+    "config": {
+        "wifi-ssid": {
+            "help": "WiFi SSID",
+            "value": "\"Michael\""
+        },
+        "wifi-password": {
+            "help": "WiFi Password",
+            "value": "\"mmmmmmmm\""
+        }
+    },
+    "target_overrides": {
+        "*": {
+            "platform.stdio-convert-newlines": true
+        }
+    }
+}
